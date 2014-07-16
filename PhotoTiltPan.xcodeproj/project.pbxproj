@@ -22,6 +22,7 @@
 		0A4CC7711976342D000B6E65 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0A4CC76F1976342D000B6E65 /* InfoPlist.strings */; };
 		0A4CC7731976342D000B6E65 /* PhotoTiltPanTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A4CC7721976342D000B6E65 /* PhotoTiltPanTests.m */; };
 		0A4CC77D19763451000B6E65 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A4CC77C19763451000B6E65 /* CoreMotion.framework */; };
+		0A4CC78119764F1A000B6E65 /* Try3a.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 0A4CC78019764F1A000B6E65 /* Try3a.JPG */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		0A4CC7701976342D000B6E65 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0A4CC7721976342D000B6E65 /* PhotoTiltPanTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoTiltPanTests.m; sourceTree = "<group>"; };
 		0A4CC77C19763451000B6E65 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		0A4CC78019764F1A000B6E65 /* Try3a.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Try3a.JPG; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +118,7 @@
 		0A4CC74D1976342D000B6E65 /* PhotoTiltPan */ = {
 			isa = PBXGroup;
 			children = (
+				0A4CC78019764F1A000B6E65 /* Try3a.JPG */,
 				0A4CC7561976342D000B6E65 /* RSAppDelegate.h */,
 				0A4CC7571976342D000B6E65 /* RSAppDelegate.m */,
 				0A4CC7591976342D000B6E65 /* Main.storyboard */,
@@ -234,6 +237,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A4CC7601976342D000B6E65 /* Images.xcassets in Resources */,
+				0A4CC78119764F1A000B6E65 /* Try3a.JPG in Resources */,
 				0A4CC7521976342D000B6E65 /* InfoPlist.strings in Resources */,
 				0A4CC75B1976342D000B6E65 /* Main.storyboard in Resources */,
 			);
@@ -461,6 +465,7 @@
 				0A4CC7781976342E000B6E65 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0A4CC7791976342E000B6E65 /* Build configuration list for PBXNativeTarget "PhotoTiltPanTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +474,7 @@
 				0A4CC77B1976342E000B6E65 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
